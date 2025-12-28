@@ -1,0 +1,15 @@
+No implicit type conversions in go
+        Why Go enforces this (important for jobs)
+
+        Faster performance
+
+        Predictable memory layout
+
+        Safer concurrent programs
+
+        Fewer runtime bugs
+
+can do type conversions explicit...and also dont change type in run time 
+
+this brings to interfaces which we gonna learn afterwards
+
