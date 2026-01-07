@@ -20,6 +20,11 @@ func main() {
 		if i==34 {
 			break;
 		}
+
+	}
+
+	if x:=3;x>0{
+		fmt.Println(x)
 	}
 	
 	//making array 
@@ -28,6 +33,14 @@ func main() {
 	fmt.Println(arr)
 
 
+
+var arr2 []int
+arr2 = make([]int, 0)
+
+arr3:=append(arr2,342111 );
+
+fmt.Println(arr3)
+fmt.Println(arr2)
 
 
 

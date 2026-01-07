@@ -13,3 +13,28 @@ can do type conversions explicit...and also dont change type in run time
 
 this brings to interfaces which we gonna learn afterwards
 
+
+
+
+
+___________________________________________________________________________
+
+
+Why Go does this (design reason)
+
+Go forces explicitness:
+
+Index access = intentional mutation
+
+Value access = read-only copy
+
+This avoids accidental mutation bugs common in other languages. 
+
+for i:= range arr{
+        index 
+}
+_,i:=range arr
+{
+         value
+}
+
