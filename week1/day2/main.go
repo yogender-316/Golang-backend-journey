@@ -54,6 +54,17 @@ func main() {
 		fmt.Println("Count at ",i," index: ",count)
 	}
 	// for i:=
+
+
+// 	Why Go does this (design reason)
+
+// Go forces explicitness:
+
+// Index access = intentional mutation
+
+// Value access = read-only copy
+
+// This avoids accidental mutation bugs common in other languages.
 }
 
 func  to_string( v interface  {}) string {
