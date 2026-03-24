@@ -76,7 +76,11 @@ fmt.Println(mp6["a"])
 // maps done now functions 
 
 
+var mp5 map[int]int
+// mp5=make(map[int]int)
 
+
+fmt.Println(mp5[3])
 
 }
 
