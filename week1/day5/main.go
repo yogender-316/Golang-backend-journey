@@ -32,7 +32,7 @@ func main () {
     abc: 21,
 	}
 
-	
+	fmt.Println(p)
 }
 
 func calc(a,b int) (int,int){
