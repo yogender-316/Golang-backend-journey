@@ -7,11 +7,11 @@ import (
 func main() {
 	// Go does not have enums directly.
 		// We usually create enum-like constants with iota.
-		type LogLevel int
+		  
 		const (
-			Info LogLevel = iota
-			Warning
-			Error
+			Info  = iota
+			Warning= 'b'
+			Error = 'c'
 		)
 	fmt.Println("Info level:", Info)
 	fmt.Println("Warning level:", Warning)
