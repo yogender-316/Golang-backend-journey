@@ -80,7 +80,7 @@ a=1
 		} else {
 			fmt.Println("a and b are not equal")
 		}
-
+  
 
 		randomValue := interface{}(42.0)
 
